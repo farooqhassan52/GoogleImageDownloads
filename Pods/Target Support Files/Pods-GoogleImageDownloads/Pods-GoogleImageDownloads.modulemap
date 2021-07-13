@@ -1,0 +1,6 @@
+framework module Pods_GoogleImageDownloads {
+  umbrella header "Pods-GoogleImageDownloads-umbrella.h"
+
+  export *
+  module * { export * }
+}

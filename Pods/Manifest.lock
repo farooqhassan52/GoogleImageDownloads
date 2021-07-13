@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.3)
+  - LinearProgressBar (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - LinearProgressBar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - LinearProgressBar
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  LinearProgressBar: 619d6f286b608e501f39406557f60cdab3faf910
+
+PODFILE CHECKSUM: 809e46c2d731017ebaca507e30febd97260b5e67
+
+COCOAPODS: 1.10.1

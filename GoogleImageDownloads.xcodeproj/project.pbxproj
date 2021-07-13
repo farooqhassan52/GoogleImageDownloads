@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF94B2D269C5B9C00836231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF94B2C269C5B9C00836231 /* AppDelegate.swift */; };
+		4DF94B2F269C5B9C00836231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF94B2E269C5B9C00836231 /* SceneDelegate.swift */; };
+		4DF94B31269C5B9C00836231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF94B30269C5B9C00836231 /* ViewController.swift */; };
+		4DF94B34269C5B9C00836231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF94B32269C5B9C00836231 /* Main.storyboard */; };
+		4DF94B36269C5BA000836231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF94B35269C5BA000836231 /* Assets.xcassets */; };
+		4DF94B39269C5BA000836231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF94B37269C5BA000836231 /* LaunchScreen.storyboard */; };
+		4DF94B42269C5E6200836231 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF94B41269C5E6200836231 /* ApiHandler.swift */; };
+		F789587EC314057253C8DB7E /* Pods_GoogleImageDownloads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF53A7FE81C675D04ADBD97B /* Pods_GoogleImageDownloads.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE9FD6282B62599276AF8C7 /* Pods-GoogleImageDownloads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleImageDownloads.debug.xcconfig"; path = "Target Support Files/Pods-GoogleImageDownloads/Pods-GoogleImageDownloads.debug.xcconfig"; sourceTree = "<group>"; };
+		45AE6B6FB780DBDFB6E09F03 /* Pods-GoogleImageDownloads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleImageDownloads.release.xcconfig"; path = "Target Support Files/Pods-GoogleImageDownloads/Pods-GoogleImageDownloads.release.xcconfig"; sourceTree = "<group>"; };
+		4DF94B29269C5B9C00836231 /* GoogleImageDownloads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleImageDownloads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF94B2C269C5B9C00836231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DF94B2E269C5B9C00836231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DF94B30269C5B9C00836231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DF94B33269C5B9C00836231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF94B35269C5BA000836231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF94B38269C5BA000836231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DF94B3A269C5BA000836231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF94B41269C5E6200836231 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		BF53A7FE81C675D04ADBD97B /* Pods_GoogleImageDownloads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleImageDownloads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF94B26269C5B9C00836231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F789587EC314057253C8DB7E /* Pods_GoogleImageDownloads.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8FF38D0F7C1D7CF814ADBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF53A7FE81C675D04ADBD97B /* Pods_GoogleImageDownloads.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DF94B20269C5B9C00836231 = {
+			isa = PBXGroup;
+			children = (
+				4DF94B2B269C5B9C00836231 /* GoogleImageDownloads */,
+				4DF94B2A269C5B9C00836231 /* Products */,
+				5CA4122A9CC1100C2E3F1175 /* Pods */,
+				3D8FF38D0F7C1D7CF814ADBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF94B2A269C5B9C00836231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF94B29269C5B9C00836231 /* GoogleImageDownloads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF94B2B269C5B9C00836231 /* GoogleImageDownloads */ = {
+			isa = PBXGroup;
+			children = (
+				4DF94B40269C5E4F00836231 /* Networking */,
+				4DF94B2C269C5B9C00836231 /* AppDelegate.swift */,
+				4DF94B2E269C5B9C00836231 /* SceneDelegate.swift */,
+				4DF94B30269C5B9C00836231 /* ViewController.swift */,
+				4DF94B32269C5B9C00836231 /* Main.storyboard */,
+				4DF94B35269C5BA000836231 /* Assets.xcassets */,
+				4DF94B37269C5BA000836231 /* LaunchScreen.storyboard */,
+				4DF94B3A269C5BA000836231 /* Info.plist */,
+			);
+			path = GoogleImageDownloads;
+			sourceTree = "<group>";
+		};
+		4DF94B40269C5E4F00836231 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4DF94B41269C5E6200836231 /* ApiHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5CA4122A9CC1100C2E3F1175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9FD6282B62599276AF8C7 /* Pods-GoogleImageDownloads.debug.xcconfig */,
+				45AE6B6FB780DBDFB6E09F03 /* Pods-GoogleImageDownloads.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF94B28269C5B9C00836231 /* GoogleImageDownloads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF94B3D269C5BA000836231 /* Build configuration list for PBXNativeTarget "GoogleImageDownloads" */;
+			buildPhases = (
+				E80EE338A334A5FFD5F11A45 /* [CP] Check Pods Manifest.lock */,
+				4DF94B25269C5B9C00836231 /* Sources */,
+				4DF94B26269C5B9C00836231 /* Frameworks */,
+				4DF94B27269C5B9C00836231 /* Resources */,
+				B59E01F00B1BEC9E67E70DA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleImageDownloads;
+			productName = GoogleImageDownloads;
+			productReference = 4DF94B29269C5B9C00836231 /* GoogleImageDownloads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF94B21269C5B9C00836231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4DF94B28269C5B9C00836231 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 4DF94B24269C5B9C00836231 /* Build configuration list for PBXProject "GoogleImageDownloads" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF94B20269C5B9C00836231;
+			productRefGroup = 4DF94B2A269C5B9C00836231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF94B28269C5B9C00836231 /* GoogleImageDownloads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF94B27269C5B9C00836231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF94B39269C5BA000836231 /* LaunchScreen.storyboard in Resources */,
+				4DF94B36269C5BA000836231 /* Assets.xcassets in Resources */,
+				4DF94B34269C5B9C00836231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B59E01F00B1BEC9E67E70DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleImageDownloads/Pods-GoogleImageDownloads-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleImageDownloads/Pods-GoogleImageDownloads-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleImageDownloads/Pods-GoogleImageDownloads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80EE338A334A5FFD5F11A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleImageDownloads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF94B25269C5B9C00836231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF94B31269C5B9C00836231 /* ViewController.swift in Sources */,
+				4DF94B2D269C5B9C00836231 /* AppDelegate.swift in Sources */,
+				4DF94B2F269C5B9C00836231 /* SceneDelegate.swift in Sources */,
+				4DF94B42269C5E6200836231 /* ApiHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DF94B32269C5B9C00836231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF94B33269C5B9C00836231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF94B37269C5BA000836231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF94B38269C5BA000836231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF94B3B269C5BA000836231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DF94B3C269C5BA000836231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF94B3E269C5BA000836231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE9FD6282B62599276AF8C7 /* Pods-GoogleImageDownloads.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GR4J2GH38;
+				INFOPLIST_FILE = GoogleImageDownloads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoogleImageDownloads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF94B3F269C5BA000836231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AE6B6FB780DBDFB6E09F03 /* Pods-GoogleImageDownloads.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GR4J2GH38;
+				INFOPLIST_FILE = GoogleImageDownloads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoogleImageDownloads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF94B24269C5B9C00836231 /* Build configuration list for PBXProject "GoogleImageDownloads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF94B3B269C5BA000836231 /* Debug */,
+				4DF94B3C269C5BA000836231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF94B3D269C5BA000836231 /* Build configuration list for PBXNativeTarget "GoogleImageDownloads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF94B3E269C5BA000836231 /* Debug */,
+				4DF94B3F269C5BA000836231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF94B21269C5B9C00836231 /* Project object */;
+}
